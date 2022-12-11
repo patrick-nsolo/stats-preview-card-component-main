@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px){
-    
+    img{
+        max-inline-size: 100%;
+        block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/
+        border-radius: 10px 0 10px 0;
+    }
 
 
 }

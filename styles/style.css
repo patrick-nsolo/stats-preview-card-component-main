@@ -34,21 +34,27 @@ body{
 }
 ul{
     list-style: none;
-    margin-top: 50px;
+    display: flex;
+    /*margin-top: 50px;
     display:grid;
-    align-content: center;
-    grid: ;   
+    align-content: center;*/   
 }
 ul li{
     color: var(--Slightlytransparentwhite);
+    flex-direction: column;
+    margin-top: 15px;
+    align-content: space-between;
 }
-h1{font-size: 35px;}
+h1{font-size: 1.8rem;}
 p{
-    margin-top: 30px;
-    line-height: 22px; 
+    margin-top: 20px;
+    line-height: 2; /*NEVER use px for line height OR FONT*/
     width:350px;
     font-size:0.9rem;/*always use this measurement for fonts*/
     color: var(--Slightlytransparentwhite);
+}
+span{
+    display: block; 
 }
 .card{
     max-width: 500px;
