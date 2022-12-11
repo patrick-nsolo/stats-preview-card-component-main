@@ -24,6 +24,7 @@
 img{
     max-inline-size: 100%;
     block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/
+    border-radius: 0 10px 10px 0;
 }
 body{
     background-color:var(--Verydarkblue);
@@ -36,8 +37,7 @@ ul{
     margin-top: 50px;
     display:grid;
     align-content: center;
-    
-    
+    grid: ;   
 }
 ul li{
     color: var(--Slightlytransparentwhite);
@@ -55,7 +55,7 @@ p{
     background-color: var(--Darkdesaturatedblue);
     color:var(--Verydarkblue);
     padding:40px;
-    
+    border-radius: 10px 0 0 10px;   
 }
 .highlight{
     color:var(--Softviolet);
