@@ -1,8 +1,16 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1020px){
     img{
         max-inline-size: 100%;
         block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/
-        border-radius: 10px 0 10px 0;
+        border-radius: 10px 10px 0 0;
+    }
+    section{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .overlay{
+        border-radius: 10px 10px 0 0;
+        width: 500px;
     }
 
 
