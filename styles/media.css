@@ -1,16 +1,49 @@
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1000px){
     img{
         max-inline-size: 100%;
         block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/
         border-radius: 10px 10px 0 0;
+        width: 300px;
+    }
+    body{
+        position: relative;
+        
     }
     section{
         flex-direction: column-reverse;
-        margin: 0;
+        margin-top: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    h1{
+        font-size:1.4rem;
+        text-align: center;
+    }
+    p{
+        margin-top: 20px;
+        line-height: 1.8; /*NEVER use px for line height OR FONT*/
+        width:220px;
+        text-align: center;
+        font-size:0.8rem;/*always use this measurement for fonts*/
+        color: var(--Slightlytransparentwhite);
+    }
+    ul{
+        display: inline-block;
+        margin-left: 80px;
+        text-align: center;
     }
     .overlay{
         border-radius: 10px 10px 0 0;
-        width: 500px;
+        width: 300px;
+        height:220px;
+    }
+    .card{
+        width: 300px;
+        border-radius: 0 0 10px 10px;
+        height: ;
     }
 
 
